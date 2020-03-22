@@ -1,0 +1,8 @@
+.sign-up{
+    position: relative;
+}
+.sign-up-login{
+    position: absolute;
+    top: 2.2em;
+    left: 32px;
+}

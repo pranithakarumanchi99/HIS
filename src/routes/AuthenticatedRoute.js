@@ -1,5 +1,5 @@
 import React from 'react'
-import commonService from '../services/CommonService';
+import CommonService from '../services/CommonService';
 import * as routePath from '../utils/path'
 import { Route,Redirect } from "react-router-dom";
 
@@ -10,7 +10,7 @@ function AuthenticatedRoute({ component: Comp, path, ...rest }) {
           {...rest}
           render={props => {
 
-            if(commonService.isAutheticated())
+            if(CommonService.get().isAutheticated())
             {
               return <Comp {...props} />
                  

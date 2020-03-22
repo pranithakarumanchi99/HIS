@@ -1,6 +1,5 @@
-.login-card{
-    height: 22em;
-    width: 31em;
-    margin-left: 32em;
-    margin-top: 8em;
+.login-form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 30px 0;
 }
