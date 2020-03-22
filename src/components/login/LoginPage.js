@@ -25,7 +25,7 @@ function LoginPage(props) {
         </div>
         <div className="form-group small clearfix">
             <label className="checkbox-inline"><input type="checkbox"/> Remember me</label>
-            <Link href="#" className="forgot-link">Forgot Password?</Link>
+            <Link onClick={()=>props.next(2)} className="forgot-link">Forgot Password?</Link>
         </div> 
         <input type="submit" className="btn btn-primary btn-block btn-lg" value="Login" />              
     </form>			

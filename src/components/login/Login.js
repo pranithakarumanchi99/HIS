@@ -16,7 +16,7 @@ function Login() {
       case 1:
         return <LoginPage next={next} />;
       case 2:
-        return <ForgotPassword  />;
+        return <ForgotPassword next={next}  />;
       case 3:
         return <SignUp next={next} />;
 
